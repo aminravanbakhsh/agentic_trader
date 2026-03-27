@@ -1,0 +1,50 @@
+name: agentic_trader
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # Core scientific stack
+  - numpy
+  - pandas
+
+  # Dev tools
+  - pytest
+
+  # Optional (nice to have)
+  - jupyterlab
+
+  - pip:
+      # API
+      - fastapi
+      - uvicorn[standard]
+
+      # Config
+      - python-dotenv
+
+      # LangChain ecosystem
+      - langchain
+      - langchain-openai
+      - langchain-community
+      - langchain-mcp-adapters
+
+      # MCP
+      - mcp
+
+      # Vector DB
+      - faiss-cpu
+
+      # Finance data
+      - yfinance
+
+      # ML tracking / extras
+      - mlflow
+
+      # HTTP client
+      - httpx
+
+      # AWS SDK
+      - boto3

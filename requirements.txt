@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+langchain
+langchain-openai
+langchain-community
+langchain-mcp-adapters
+faiss-cpu
+yfinance
+pandas
+numpy
+boto3
+mcp
+httpx
+pytest
