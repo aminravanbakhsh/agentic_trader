@@ -31,6 +31,9 @@ dependencies:
       - langchain-community
       - langchain-mcp-adapters
 
+      # sentence transformers
+      - sentence-transformers
+
       # MCP
       - mcp
 

@@ -1,16 +1,41 @@
+# --- API ---
 fastapi
 uvicorn[standard]
 pydantic
+
+# --- Config ---
 python-dotenv
+
+# --- LangChain core ---
 langchain
 langchain-openai
 langchain-community
+
+# --- MCP integration ---
 langchain-mcp-adapters
+mcp
+
+# --- Vector DB (RAG) ---
 faiss-cpu
+
+# --- Embeddings (local) ---
+sentence-transformers
+
+# --- Finance data ---
 yfinance
+
+# --- Data processing ---
 pandas
 numpy
-boto3
-mcp
+
+# --- HTTP (used internally by LangChain / tools) ---
 httpx
+
+# --- AWS (optional runtime / future use) ---
+boto3
+
+# --- Testing ---
 pytest
+
+# --- Optional but recommended ---
+mlflow
