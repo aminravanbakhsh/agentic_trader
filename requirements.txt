@@ -10,6 +10,7 @@ python-dotenv
 langchain
 langchain-openai
 langchain-community
+langgraph
 
 # --- MCP integration ---
 langchain-mcp-adapters
@@ -20,6 +21,9 @@ faiss-cpu
 
 # --- Embeddings (local) ---
 sentence-transformers
+
+# --- Web search ---
+duckduckgo-search
 
 # --- Finance data ---
 yfinance
